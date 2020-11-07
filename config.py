@@ -53,9 +53,9 @@ class Config:
                           If reduction='sum',  reduced_loss = sum(ce(j))
     """
 
-    video_root:            str = ""
-    data_2d_root:          str = "/homes/l17vedre/Bureau/Sanssauvegarde/2D"
-    medical_data_csv_path: str = "../medical_data.csv"
+    video_root:            str = "C:/Users/artme/OneDrive/MCE/Projet A3/SPYGLASS/SPYGLASS/data/videos"
+    data_2d_root:          str = ""
+    medical_data_csv_path: str = "C:/Users/artme/OneDrive/MCE/Projet A3/SPYGLASS/SPYGLASS/data/annotations/medical_data.csv"
     sampling_factor:       int = 10
     crop:                  int = 400
     train_batch_size:      int = 64
